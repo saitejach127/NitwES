@@ -13,16 +13,13 @@
 }
 
 .navbar-right a{
-  text-decoration:none;
+  text-decoration:black;
   padding:10px;
   color: #fff;
   font-family:Arial;
   font-weight:900;
 }
 
-.navbar-right a:hover{
-  text-decoration:underline;
-}
 .navbar-logo{
   padding-left:10%;
   font-family:Arial;
