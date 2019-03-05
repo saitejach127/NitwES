@@ -1,54 +1,63 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Contact Us|NITW-ES</title>
-        <link rel="stylesheet" type="text/css" href="new.css">
-        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="static/css/style.css">
-    </head>
+            <title>Contact Us|NITW-ES</title>
+            <link rel="icon" href="static/images/favicon.ico" type="image/gif" sizes="16x16">
+            <link rel="stylesheet" type="text/css" href="/static/css/contactstyle.css">
+            <link rel="stylesheet" type="text/css" href="/common/css/main-c7.css">
+    </head>        
     <body>
-    	<div class="wrapper">
-    	<header>
-                  <nav style="background-color: black; position: fixed;">
-
-                        <div class="menu-icon">
-                              <i class="fa fa-bars fa-2x"></i>
-                        </div>
-
-                        <div class="logo">
-                             <img src="static/images/nitwes.png" width="100" height="70">
-                       </div>
-
-                       <div class="menu">
-                        <ul>
-                              <li><a href="#">Home</a></li>
-                              <li><a href="#">About</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Contact</a></li>
-                        </ul>
-                  </div>
+      <header>
+         <div class="header">
+            <nav class="navigation">
+                 <a href="#" class="navbar-logo">Logo</a>
+                 <div class="navbar-right">
+                      <a href="#">About</a>
+                      <a href="#">Blog</a>
+                      <a href="#">Contact</a>
+                </div>
             </nav>
+         </div>
       </header>
-  </div>
-        <div class="contact">
-            <h1>Contact Us NITW-ES</h1>
-            <p> Get in touch with us for any query</p>
-        </div>
+                    <div class="inner">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="content">
+                        <div class="half left">
+                            <h2>Getting in touch is easy!</h2>
+                            <h5>Have any questions? We’d love to hear from you.</h5>
+                            <div class="address"><h2>Our Address</h2> <h5>NITW-ES &ndash; NIT Warangal,<br/> National Institute of Technology Campus,</br> Warangal, Telangana 506004</h5></div>
+                          
+                            <div class="email">
+                                <h2>Our Email ID</h2>
+                                <a href="mailto:esnitw@gmail.com">esnitw@gmail.com</a>
+                                <h2>Our Phone No.</h2>
+                                <h5>+917702489394</h5>
+                            </div>
+                            <div class="social"><a class="icon-facebook" href="https://www.facebook.com/Nitw-electric-sports-352800922117814/" target="_blank"></a><a class="icon-instagram" href="https://www.instagram.com/nitwelectric/" target="_blank">></a></div>
+                        </div>
+                        <div class="half end">
+                            <div class="contact-form">
+                                <form id="contact" action="/mail.php" method="post">
+                                    <input name="form_name" id="form_name" title="name" class="input" type="text" placeholder="Your name" required>
+                                    <input name="form_email" id="form_email" title="email" class="input" type="email" placeholder="Your email" required>
+                                    <textarea name="form_message" id="form_message" title="message" placeholder="Type your message here" required></textarea>
+                                    <input type="submit" value="Send Message" name="submit" class="button animated">
+                                    <label class="spam-filter">
+                                    	<input name="form_spam" type="checkbox" required id="spam-check" value="1"> You must check this box
+                                    </label>
+                                    <div id="response"></div>
+                                </form>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
         
-        <div class="geninfo"><h2 style="color:Tomato;">GENERAL INFORMATION</h2></div>
-        
-        <div class="addr">
-            <h3><strong>Address</strong></h3>
-            <p>NIT Warangal Electric Sports<br/>National Institute of Technology Warangal<br/>Telangana - 506004, INDIA<br/><p/>
-            
-            <h3><strong>Phone</strong></h3>
-            <p>Call on +91 7702489394</p>
-            
-            <h3><strong>Email</strong></h3>
-            <p>esnitw@gmail.com</p>
-        </div>
-        
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15179.553524674822!2d79.5307478!3d17.9839293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e28892fbcc62a7d!2sInnovation+Garage!5e0!3m2!1sen!2sin!4v1550393484002" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-    </body>
+          <div class="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15179.553524674822!2d79.5307478!3d17.9839293!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e28892fbcc62a7d!2sInnovation+Garage!5e0!3m2!1sen!2sin!4v1550393484002" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+        </body>
+    </html>
+
